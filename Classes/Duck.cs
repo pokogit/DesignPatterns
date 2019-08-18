@@ -28,5 +28,15 @@ namespace DesignPatterns
         }
 
         public abstract void Display();
+
+        public void SetFlyBehaviour(IFlyBehaviour fb)
+        {
+            flyBehaviour = fb;
+        }
+
+        public void SetQuackBehaviour(IQuackBehaviour qb)
+        {
+            quackBehaviour = qb;
+        }
     }
 }

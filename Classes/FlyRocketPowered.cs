@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns
+namespace DesignPatterns.Classes
 {
-    class FlyNoWay : IFlyBehaviour
+    class FlyRocketPowered : IFlyBehaviour
     {
         public void Fly()
         {
-            Console.WriteLine("I can't fly");
+            Console.WriteLine("I'm flying with a rocket!");
             Console.ReadLine();
         }
     }

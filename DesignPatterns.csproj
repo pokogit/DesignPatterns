@@ -84,9 +84,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\FlyNoWay.cs" />
+    <Compile Include="Classes\FlyRocketPowered.cs" />
     <Compile Include="Classes\FlyWithWings.cs" />
     <Compile Include="Classes\MallardDuck.cs" />
     <Compile Include="Classes\Duck.cs" />
+    <Compile Include="Classes\ModelDuck.cs" />
     <Compile Include="Interfaces\IFlyBehaviour.cs" />
     <Compile Include="Interfaces\IQuackBehaviour.cs" />
     <Compile Include="Classes\MuteQuack.cs" />
