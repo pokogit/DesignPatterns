@@ -85,16 +85,19 @@
   <ItemGroup>
     <Compile Include="Classes\FlyNoWay.cs" />
     <Compile Include="Classes\FlyWithWings.cs" />
+    <Compile Include="Classes\MallardDuck.cs" />
+    <Compile Include="Classes\Duck.cs" />
     <Compile Include="Interfaces\IFlyBehaviour.cs" />
     <Compile Include="Interfaces\IQuackBehaviour.cs" />
     <Compile Include="Classes\MuteQuack.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="MiniDuckSimulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Quack.cs" />
     <Compile Include="Classes\Squeak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

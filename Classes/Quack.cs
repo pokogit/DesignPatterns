@@ -10,7 +10,8 @@ namespace DesignPatterns
     {
         void IQuackBehaviour.Quack()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Quack");
+            Console.ReadLine();
         }
     }
 }

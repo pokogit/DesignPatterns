@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns
 {
-    interface IFlyBehaviour 
+    public interface IFlyBehaviour 
     {
         void Fly();
     }

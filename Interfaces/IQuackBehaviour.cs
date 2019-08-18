@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns
 {
-    interface IQuackBehaviour
+    public interface IQuackBehaviour
     {
         void Quack();
     }

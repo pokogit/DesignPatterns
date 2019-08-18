@@ -10,7 +10,8 @@ namespace DesignPatterns
     {
         public void Quack()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("<< Silence >>");
+            Console.ReadLine();
         }
     }
 }

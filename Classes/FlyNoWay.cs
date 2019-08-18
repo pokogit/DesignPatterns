@@ -10,7 +10,8 @@ namespace DesignPatterns
     {
         public void Fly()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("I'm can't fly");
+            Console.ReadLine();
         }
     }
 }
