@@ -10,4 +10,9 @@ namespace DesignPatterns
     {
         void Fly();
     }
+
+    public interface CopyOfIFlyBehaviour
+    {
+        void Fly();
+    }
 }

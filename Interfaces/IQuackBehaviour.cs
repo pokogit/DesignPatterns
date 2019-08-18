@@ -10,4 +10,9 @@ namespace DesignPatterns
     {
         void Quack();
     }
+
+    public interface CopyOfIQuackBehaviour
+    {
+        void Quack();
+    }
 }
